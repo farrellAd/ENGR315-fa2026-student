@@ -14,6 +14,12 @@ Note: this problem does not require the "compounding interest" formula from the 
 
 ### Your code here ###
 
-in_state_gift = 0
+rate = 0.05
+in_state_cost = 30792.0
+out_of_state_cost = 47882.0
 
-out_state_gift = 0
+in_state_gift = in_state_cost/rate
+print(str(in_state_gift) + " USD")
+
+out_state_gift = out_of_state_cost/rate
+print(str(out_state_gift) + " USD")
